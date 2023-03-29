@@ -1,0 +1,509 @@
+pkg_info {
+  arch: "v1model"
+}
+tables {
+  preamble {
+    id: 49317536
+    name: "MyIngress.cos_value_va.cos_base_degree"
+    alias: "cos_value_va.cos_base_degree"
+  }
+  match_fields {
+    id: 1
+    name: "degree"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  action_refs {
+    id: 28211672
+  }
+  action_refs {
+    id: 25328415
+  }
+  action_refs {
+    id: 21257015
+    annotations: "@defaultonly"
+    scope: DEFAULT_ONLY
+  }
+  size: 1024
+  is_const_table: true
+}
+tables {
+  preamble {
+    id: 36034012
+    name: "MyIngress.cos_value_vb.cos_base_degree"
+    alias: "cos_value_vb.cos_base_degree"
+  }
+  match_fields {
+    id: 1
+    name: "degree"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  action_refs {
+    id: 18132395
+  }
+  action_refs {
+    id: 24663813
+  }
+  action_refs {
+    id: 21257015
+    annotations: "@defaultonly"
+    scope: DEFAULT_ONLY
+  }
+  size: 1024
+  is_const_table: true
+}
+tables {
+  preamble {
+    id: 48886628
+    name: "MyIngress.cos_value_vc.cos_base_degree"
+    alias: "cos_value_vc.cos_base_degree"
+  }
+  match_fields {
+    id: 1
+    name: "degree"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  action_refs {
+    id: 27540583
+  }
+  action_refs {
+    id: 29217963
+  }
+  action_refs {
+    id: 21257015
+    annotations: "@defaultonly"
+    scope: DEFAULT_ONLY
+  }
+  size: 1024
+  is_const_table: true
+}
+tables {
+  preamble {
+    id: 45164264
+    name: "MyIngress.sin_value_va.sin_base_degree"
+    alias: "sin_value_va.sin_base_degree"
+  }
+  match_fields {
+    id: 1
+    name: "degree"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  action_refs {
+    id: 21051310
+  }
+  action_refs {
+    id: 28986832
+  }
+  action_refs {
+    id: 21257015
+    annotations: "@defaultonly"
+    scope: DEFAULT_ONLY
+  }
+  size: 1024
+  is_const_table: true
+}
+tables {
+  preamble {
+    id: 42367770
+    name: "MyIngress.sin_value_vb.sin_base_degree"
+    alias: "sin_value_vb.sin_base_degree"
+  }
+  match_fields {
+    id: 1
+    name: "degree"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  action_refs {
+    id: 19482207
+  }
+  action_refs {
+    id: 25030818
+  }
+  action_refs {
+    id: 21257015
+    annotations: "@defaultonly"
+    scope: DEFAULT_ONLY
+  }
+  size: 1024
+  is_const_table: true
+}
+tables {
+  preamble {
+    id: 35940966
+    name: "MyIngress.sin_value_vc.sin_base_degree"
+    alias: "sin_value_vc.sin_base_degree"
+  }
+  match_fields {
+    id: 1
+    name: "degree"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  action_refs {
+    id: 32676614
+  }
+  action_refs {
+    id: 24798459
+  }
+  action_refs {
+    id: 21257015
+    annotations: "@defaultonly"
+    scope: DEFAULT_ONLY
+  }
+  size: 1024
+  is_const_table: true
+}
+tables {
+  preamble {
+    id: 37375156
+    name: "MyIngress.ipv4_lpm"
+    alias: "ipv4_lpm"
+  }
+  match_fields {
+    id: 1
+    name: "hdr.ipv4.dstAddr"
+    bitwidth: 32
+    match_type: LPM
+  }
+  action_refs {
+    id: 28792405
+  }
+  action_refs {
+    id: 25652968
+  }
+  action_refs {
+    id: 21257015
+  }
+  size: 1024
+}
+tables {
+  preamble {
+    id: 43931746
+    name: "MyIngress.debug_pmu_header"
+    alias: "debug_pmu_header"
+  }
+  match_fields {
+    id: 1
+    name: "hdr.pmu.sync"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 2
+    name: "hdr.pmu.soc"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 3
+    name: "hdr.pmu.phasorVA_Vol"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  action_refs {
+    id: 21257015
+    annotations: "@defaultonly"
+    scope: DEFAULT_ONLY
+  }
+  size: 1024
+}
+actions {
+  preamble {
+    id: 21257015
+    name: "NoAction"
+    alias: "NoAction"
+    annotations: "@noWarn(\"unused\")"
+  }
+}
+actions {
+  preamble {
+    id: 28211672
+    name: "MyIngress.cos_value_va.set_cos_result"
+    alias: "cos_value_va.set_cos_result"
+  }
+  params {
+    id: 1
+    name: "y"
+    bitwidth: 32
+  }
+}
+actions {
+  preamble {
+    id: 25328415
+    name: "MyIngress.cos_value_va.set_cos_test"
+    alias: "cos_value_va.set_cos_test"
+  }
+}
+actions {
+  preamble {
+    id: 18132395
+    name: "MyIngress.cos_value_vb.set_cos_result"
+    alias: "cos_value_vb.set_cos_result"
+  }
+  params {
+    id: 1
+    name: "y"
+    bitwidth: 32
+  }
+}
+actions {
+  preamble {
+    id: 24663813
+    name: "MyIngress.cos_value_vb.set_cos_test"
+    alias: "cos_value_vb.set_cos_test"
+  }
+}
+actions {
+  preamble {
+    id: 27540583
+    name: "MyIngress.cos_value_vc.set_cos_result"
+    alias: "cos_value_vc.set_cos_result"
+  }
+  params {
+    id: 1
+    name: "y"
+    bitwidth: 32
+  }
+}
+actions {
+  preamble {
+    id: 29217963
+    name: "MyIngress.cos_value_vc.set_cos_test"
+    alias: "cos_value_vc.set_cos_test"
+  }
+}
+actions {
+  preamble {
+    id: 21051310
+    name: "MyIngress.sin_value_va.set_sin_result"
+    alias: "sin_value_va.set_sin_result"
+  }
+  params {
+    id: 1
+    name: "y"
+    bitwidth: 32
+  }
+}
+actions {
+  preamble {
+    id: 28986832
+    name: "MyIngress.sin_value_va.set_sin_test"
+    alias: "sin_value_va.set_sin_test"
+  }
+}
+actions {
+  preamble {
+    id: 19482207
+    name: "MyIngress.sin_value_vb.set_sin_result"
+    alias: "sin_value_vb.set_sin_result"
+  }
+  params {
+    id: 1
+    name: "y"
+    bitwidth: 32
+  }
+}
+actions {
+  preamble {
+    id: 25030818
+    name: "MyIngress.sin_value_vb.set_sin_test"
+    alias: "sin_value_vb.set_sin_test"
+  }
+}
+actions {
+  preamble {
+    id: 32676614
+    name: "MyIngress.sin_value_vc.set_sin_result"
+    alias: "sin_value_vc.set_sin_result"
+  }
+  params {
+    id: 1
+    name: "y"
+    bitwidth: 32
+  }
+}
+actions {
+  preamble {
+    id: 24798459
+    name: "MyIngress.sin_value_vc.set_sin_test"
+    alias: "sin_value_vc.set_sin_test"
+  }
+}
+actions {
+  preamble {
+    id: 25652968
+    name: "MyIngress.drop"
+    alias: "drop"
+  }
+}
+actions {
+  preamble {
+    id: 28792405
+    name: "MyIngress.ipv4_forward"
+    alias: "ipv4_forward"
+  }
+  params {
+    id: 1
+    name: "dstAddr"
+    bitwidth: 48
+  }
+  params {
+    id: 2
+    name: "port"
+    bitwidth: 9
+  }
+}
+actions {
+  preamble {
+    id: 18183522
+    name: "MyIngress.calculate_complex_voltage"
+    alias: "calculate_complex_voltage"
+  }
+}
+actions {
+  preamble {
+    id: 32975904
+    name: "MyIngress.jpt_algo"
+    alias: "jpt_algo"
+  }
+}
+actions {
+  preamble {
+    id: 18287779
+    name: "MyIngress.update_register"
+    alias: "update_register"
+  }
+}
+actions {
+  preamble {
+    id: 31822933
+    name: "MyIngress.test"
+    alias: "test"
+  }
+}
+registers {
+  preamble {
+    id: 381533906
+    name: "MyIngress.va_vol"
+    alias: "va_vol"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 32
+      }
+    }
+  }
+  size: 1
+}
+registers {
+  preamble {
+    id: 374432514
+    name: "MyIngress.va_ang"
+    alias: "va_ang"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 32
+      }
+    }
+  }
+  size: 1
+}
+registers {
+  preamble {
+    id: 376662384
+    name: "MyIngress.vb_vol"
+    alias: "vb_vol"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 32
+      }
+    }
+  }
+  size: 1
+}
+registers {
+  preamble {
+    id: 372902130
+    name: "MyIngress.vb_ang"
+    alias: "vb_ang"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 32
+      }
+    }
+  }
+  size: 1
+}
+registers {
+  preamble {
+    id: 376058328
+    name: "MyIngress.vc_vol"
+    alias: "vc_vol"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 32
+      }
+    }
+  }
+  size: 1
+}
+registers {
+  preamble {
+    id: 370300326
+    name: "MyIngress.vc_ang"
+    alias: "vc_ang"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 32
+      }
+    }
+  }
+  size: 1
+}
+registers {
+  preamble {
+    id: 383287519
+    name: "MyIngress.r"
+    alias: "r"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 32
+      }
+    }
+  }
+  size: 1
+}
+registers {
+  preamble {
+    id: 369593057
+    name: "MyIngress.a"
+    alias: "a"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 32
+      }
+    }
+  }
+  size: 10
+}
+type_info {
+}

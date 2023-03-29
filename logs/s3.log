@@ -1,0 +1,774 @@
+Calling target program-options parser
+[17:20:45.495] [bmv2] [D] [thread 7459] Set default default entry for table 'MyIngress.ipv4_lpm': NoAction - 
+[17:20:45.495] [bmv2] [D] [thread 7459] Set default default entry for table 'MyIngress.debug_pmu_header': NoAction - 
+[17:20:45.495] [bmv2] [D] [thread 7459] Set default default entry for table 'tbl_update_register': MyIngress.update_register - 
+[17:20:45.495] [bmv2] [D] [thread 7459] Set default default entry for table 'tbl_test': MyIngress.test - 
+[17:20:45.495] [bmv2] [D] [thread 7459] Set default default entry for table 'MyIngress.cos_value_va.cos_base_degree': NoAction - 
+[17:20:45.495] [bmv2] [D] [thread 7459] Entry 0 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:45.495] [bmv2] [D] [thread 7459] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.cos_value_va.set_cos_test - 
+
+[17:20:45.495] [bmv2] [D] [thread 7459] Entry 1 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:45.495] [bmv2] [D] [thread 7459] Dumping entry 1
+Match key:
+* degree              : EXACT     000000ae
+Action entry: MyIngress.cos_value_va.set_cos_result - ffffffa7,
+
+[17:20:45.495] [bmv2] [D] [thread 7459] Entry 2 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:45.495] [bmv2] [D] [thread 7459] Dumping entry 2
+Match key:
+* degree              : EXACT     00000001
+Action entry: MyIngress.cos_value_va.set_cos_result - 59,
+
+[17:20:45.495] [bmv2] [D] [thread 7459] Entry 3 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:45.495] [bmv2] [D] [thread 7459] Dumping entry 3
+Match key:
+* degree              : EXACT     000021d4
+Action entry: MyIngress.cos_value_va.set_cos_result - 96,
+
+[17:20:45.495] [bmv2] [D] [thread 7459] Entry 4 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:45.495] [bmv2] [D] [thread 7459] Dumping entry 4
+Match key:
+* degree              : EXACT     000021d5
+Action entry: MyIngress.cos_value_va.set_cos_result - 1e,
+
+[17:20:45.495] [bmv2] [D] [thread 7459] Entry 5 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:45.495] [bmv2] [D] [thread 7459] Dumping entry 5
+Match key:
+* degree              : EXACT     0000222e
+Action entry: MyIngress.cos_value_va.set_cos_result - 20,
+
+[17:20:45.495] [bmv2] [D] [thread 7459] Set default default entry for table 'MyIngress.sin_value_va.sin_base_degree': NoAction - 
+[17:20:45.495] [bmv2] [D] [thread 7459] Entry 0 added to table 'MyIngress.sin_value_va.sin_base_degree'
+[17:20:45.495] [bmv2] [D] [thread 7459] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.sin_value_va.set_sin_result - 3c,
+
+[17:20:45.495] [bmv2] [D] [thread 7459] Entry 1 added to table 'MyIngress.sin_value_va.sin_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 1
+Match key:
+* degree              : EXACT     0000270e
+Action entry: MyIngress.sin_value_va.set_sin_result - ffffffa7,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 2 added to table 'MyIngress.sin_value_va.sin_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 2
+Match key:
+* degree              : EXACT     00001389
+Action entry: MyIngress.sin_value_va.set_sin_result - 96,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 3 added to table 'MyIngress.sin_value_va.sin_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 3
+Match key:
+* degree              : EXACT     00001388
+Action entry: MyIngress.sin_value_va.set_sin_result - 1e,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Set default default entry for table 'tbl_basic486': basic486 - 
+[17:20:45.496] [bmv2] [D] [thread 7459] Set default default entry for table 'MyIngress.cos_value_vb.cos_base_degree': NoAction - 
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 0 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.cos_value_vb.set_cos_test - 
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 1 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 1
+Match key:
+* degree              : EXACT     000000ae
+Action entry: MyIngress.cos_value_vb.set_cos_result - ffffffa7,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 2 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 2
+Match key:
+* degree              : EXACT     00000001
+Action entry: MyIngress.cos_value_vb.set_cos_result - 59,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 3 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 3
+Match key:
+* degree              : EXACT     000021d4
+Action entry: MyIngress.cos_value_vb.set_cos_result - 96,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 4 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 4
+Match key:
+* degree              : EXACT     000021d5
+Action entry: MyIngress.cos_value_vb.set_cos_result - 1e,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 5 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 5
+Match key:
+* degree              : EXACT     0000222e
+Action entry: MyIngress.cos_value_vb.set_cos_result - 20,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Set default default entry for table 'MyIngress.sin_value_vb.sin_base_degree': NoAction - 
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 0 added to table 'MyIngress.sin_value_vb.sin_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.sin_value_vb.set_sin_result - 3c,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 1 added to table 'MyIngress.sin_value_vb.sin_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 1
+Match key:
+* degree              : EXACT     0000270e
+Action entry: MyIngress.sin_value_vb.set_sin_result - ffffffa7,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 2 added to table 'MyIngress.sin_value_vb.sin_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 2
+Match key:
+* degree              : EXACT     00001389
+Action entry: MyIngress.sin_value_vb.set_sin_result - 96,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 3 added to table 'MyIngress.sin_value_vb.sin_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 3
+Match key:
+* degree              : EXACT     00001388
+Action entry: MyIngress.sin_value_vb.set_sin_result - 1e,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Set default default entry for table 'MyIngress.cos_value_vc.cos_base_degree': NoAction - 
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 0 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.cos_value_vc.set_cos_test - 
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 1 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 1
+Match key:
+* degree              : EXACT     000000ae
+Action entry: MyIngress.cos_value_vc.set_cos_result - ffffffa7,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 2 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 2
+Match key:
+* degree              : EXACT     00000001
+Action entry: MyIngress.cos_value_vc.set_cos_result - 59,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 3 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 3
+Match key:
+* degree              : EXACT     000021d4
+Action entry: MyIngress.cos_value_vc.set_cos_result - 96,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 4 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 4
+Match key:
+* degree              : EXACT     000021d5
+Action entry: MyIngress.cos_value_vc.set_cos_result - 1e,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 5 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 5
+Match key:
+* degree              : EXACT     0000222e
+Action entry: MyIngress.cos_value_vc.set_cos_result - 20,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Set default default entry for table 'MyIngress.sin_value_vc.sin_base_degree': NoAction - 
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 0 added to table 'MyIngress.sin_value_vc.sin_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.sin_value_vc.set_sin_result - 3c,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 1 added to table 'MyIngress.sin_value_vc.sin_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 1
+Match key:
+* degree              : EXACT     0000270e
+Action entry: MyIngress.sin_value_vc.set_sin_result - ffffffa7,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 2 added to table 'MyIngress.sin_value_vc.sin_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 2
+Match key:
+* degree              : EXACT     00001389
+Action entry: MyIngress.sin_value_vc.set_sin_result - 96,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Entry 3 added to table 'MyIngress.sin_value_vc.sin_base_degree'
+[17:20:45.496] [bmv2] [D] [thread 7459] Dumping entry 3
+Match key:
+* degree              : EXACT     00001388
+Action entry: MyIngress.sin_value_vc.set_sin_result - 1e,
+
+[17:20:45.496] [bmv2] [D] [thread 7459] Set default default entry for table 'tbl_calculate_complex_voltage': MyIngress.calculate_complex_voltage - 
+[17:20:45.496] [bmv2] [D] [thread 7459] Set default default entry for table 'tbl_basic497': basic497 - 
+[17:20:45.496] [bmv2] [D] [thread 7459] Set default default entry for table 'tbl_calculate_complex_voltage_0': MyIngress.calculate_complex_voltage - 
+[17:20:45.496] [bmv2] [D] [thread 7459] Set default default entry for table 'tbl_calculate_complex_voltage_1': MyIngress.calculate_complex_voltage - 
+[17:20:45.496] [bmv2] [D] [thread 7459] Set default default entry for table 'tbl_jpt_algo': MyIngress.jpt_algo - 
+[17:20:45.496] [bmv2] [D] [thread 7459] Set default default entry for table 'tbl_jpt_algo_0': MyIngress.jpt_algo - 
+Adding interface s3-eth1 as port 1
+[17:20:45.497] [bmv2] [D] [thread 7459] Adding interface s3-eth1 as port 1
+Adding interface s3-eth2 as port 2
+[17:20:45.532] [bmv2] [D] [thread 7459] Adding interface s3-eth2 as port 2
+Server listening on 0.0.0.0:50053
+[17:20:45.568] [bmv2] [I] [thread 7459] Starting Thrift server on port 9092
+[17:20:45.569] [bmv2] [I] [thread 7459] Thrift server was started
+[17:20:45.573] [bmv2] [D] [thread 7469] [0.0] [cxt 0] Processing packet received on port 2
+[17:20:45.573] [bmv2] [D] [thread 7469] [0.0] [cxt 0] Parser 'parser': start
+[17:20:45.573] [bmv2] [D] [thread 7469] [0.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:45.573] [bmv2] [D] [thread 7469] [0.0] [cxt 0] Extracting header 'ethernet'
+[17:20:45.573] [bmv2] [D] [thread 7469] [0.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:45.573] [bmv2] [T] [thread 7469] [0.0] [cxt 0] Bytes parsed: 14
+[17:20:45.573] [bmv2] [D] [thread 7469] [0.0] [cxt 0] Parser 'parser': end
+[17:20:45.573] [bmv2] [D] [thread 7469] [0.0] [cxt 0] Pipeline 'ingress': start
+[17:20:45.573] [bmv2] [T] [thread 7469] [0.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:45.573] [bmv2] [D] [thread 7469] [0.0] [cxt 0] Pipeline 'ingress': end
+[17:20:45.573] [bmv2] [D] [thread 7469] [0.0] [cxt 0] Egress port is 0
+[17:20:45.573] [bmv2] [D] [thread 7469] [1.0] [cxt 0] Processing packet received on port 2
+[17:20:45.573] [bmv2] [D] [thread 7469] [1.0] [cxt 0] Parser 'parser': start
+[17:20:45.573] [bmv2] [D] [thread 7469] [1.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:45.573] [bmv2] [D] [thread 7469] [1.0] [cxt 0] Extracting header 'ethernet'
+[17:20:45.573] [bmv2] [D] [thread 7469] [1.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:45.573] [bmv2] [T] [thread 7469] [1.0] [cxt 0] Bytes parsed: 14
+[17:20:45.573] [bmv2] [D] [thread 7469] [1.0] [cxt 0] Parser 'parser': end
+[17:20:45.573] [bmv2] [D] [thread 7469] [1.0] [cxt 0] Pipeline 'ingress': start
+[17:20:45.573] [bmv2] [T] [thread 7469] [1.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:45.573] [bmv2] [D] [thread 7469] [1.0] [cxt 0] Pipeline 'ingress': end
+[17:20:45.573] [bmv2] [D] [thread 7469] [1.0] [cxt 0] Egress port is 0
+[17:20:45.573] [bmv2] [D] [thread 7470] [0.0] [cxt 0] Pipeline 'egress': start
+[17:20:45.573] [bmv2] [D] [thread 7470] [0.0] [cxt 0] Pipeline 'egress': end
+[17:20:45.573] [bmv2] [D] [thread 7470] [0.0] [cxt 0] Deparser 'deparser': start
+[17:20:45.573] [bmv2] [T] [thread 7470] [0.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:45.573] [bmv2] [D] [thread 7470] [0.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:45.573] [bmv2] [D] [thread 7470] [0.0] [cxt 0] Deparser 'deparser': end
+[17:20:45.573] [bmv2] [D] [thread 7470] [1.0] [cxt 0] Pipeline 'egress': start
+[17:20:45.573] [bmv2] [D] [thread 7470] [1.0] [cxt 0] Pipeline 'egress': end
+[17:20:45.573] [bmv2] [D] [thread 7470] [1.0] [cxt 0] Deparser 'deparser': start
+[17:20:45.573] [bmv2] [T] [thread 7470] [1.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:45.573] [bmv2] [D] [thread 7470] [1.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:45.573] [bmv2] [D] [thread 7470] [1.0] [cxt 0] Deparser 'deparser': end
+[17:20:45.574] [bmv2] [D] [thread 7474] [0.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[17:20:45.574] [bmv2] [D] [thread 7474] [1.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:20:45.664] [bmv2] [D] [thread 7469] [2.0] [cxt 0] Processing packet received on port 2
+[17:20:45.664] [bmv2] [D] [thread 7469] [2.0] [cxt 0] Parser 'parser': start
+[17:20:45.664] [bmv2] [D] [thread 7469] [2.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:45.664] [bmv2] [D] [thread 7469] [2.0] [cxt 0] Extracting header 'ethernet'
+[17:20:45.664] [bmv2] [D] [thread 7469] [2.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:45.664] [bmv2] [T] [thread 7469] [2.0] [cxt 0] Bytes parsed: 14
+[17:20:45.664] [bmv2] [D] [thread 7469] [2.0] [cxt 0] Parser 'parser': end
+[17:20:45.664] [bmv2] [D] [thread 7469] [2.0] [cxt 0] Pipeline 'ingress': start
+[17:20:45.664] [bmv2] [T] [thread 7469] [2.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:45.664] [bmv2] [D] [thread 7469] [2.0] [cxt 0] Pipeline 'ingress': end
+[17:20:45.664] [bmv2] [D] [thread 7469] [2.0] [cxt 0] Egress port is 0
+[17:20:45.664] [bmv2] [D] [thread 7470] [2.0] [cxt 0] Pipeline 'egress': start
+[17:20:45.664] [bmv2] [D] [thread 7470] [2.0] [cxt 0] Pipeline 'egress': end
+[17:20:45.664] [bmv2] [D] [thread 7470] [2.0] [cxt 0] Deparser 'deparser': start
+[17:20:45.664] [bmv2] [T] [thread 7470] [2.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:45.664] [bmv2] [D] [thread 7470] [2.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:45.664] [bmv2] [D] [thread 7470] [2.0] [cxt 0] Deparser 'deparser': end
+[17:20:45.665] [bmv2] [D] [thread 7474] [2.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[17:20:45.989] [bmv2] [D] [thread 7469] [3.0] [cxt 0] Processing packet received on port 1
+[17:20:45.989] [bmv2] [D] [thread 7469] [3.0] [cxt 0] Parser 'parser': start
+[17:20:45.989] [bmv2] [D] [thread 7469] [3.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:45.989] [bmv2] [D] [thread 7469] [3.0] [cxt 0] Extracting header 'ethernet'
+[17:20:45.989] [bmv2] [D] [thread 7469] [3.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:45.989] [bmv2] [T] [thread 7469] [3.0] [cxt 0] Bytes parsed: 14
+[17:20:45.989] [bmv2] [D] [thread 7469] [3.0] [cxt 0] Parser 'parser': end
+[17:20:45.989] [bmv2] [D] [thread 7469] [3.0] [cxt 0] Pipeline 'ingress': start
+[17:20:45.989] [bmv2] [T] [thread 7469] [3.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:45.989] [bmv2] [D] [thread 7469] [3.0] [cxt 0] Pipeline 'ingress': end
+[17:20:45.989] [bmv2] [D] [thread 7469] [3.0] [cxt 0] Egress port is 0
+[17:20:45.989] [bmv2] [D] [thread 7469] [4.0] [cxt 0] Processing packet received on port 1
+[17:20:45.989] [bmv2] [D] [thread 7469] [4.0] [cxt 0] Parser 'parser': start
+[17:20:45.989] [bmv2] [D] [thread 7469] [4.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:45.989] [bmv2] [D] [thread 7469] [4.0] [cxt 0] Extracting header 'ethernet'
+[17:20:45.989] [bmv2] [D] [thread 7469] [4.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:45.989] [bmv2] [T] [thread 7469] [4.0] [cxt 0] Bytes parsed: 14
+[17:20:45.989] [bmv2] [D] [thread 7469] [4.0] [cxt 0] Parser 'parser': end
+[17:20:45.989] [bmv2] [D] [thread 7469] [4.0] [cxt 0] Pipeline 'ingress': start
+[17:20:45.989] [bmv2] [T] [thread 7469] [4.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:45.989] [bmv2] [D] [thread 7469] [4.0] [cxt 0] Pipeline 'ingress': end
+[17:20:45.989] [bmv2] [D] [thread 7469] [4.0] [cxt 0] Egress port is 0
+[17:20:45.989] [bmv2] [D] [thread 7470] [3.0] [cxt 0] Pipeline 'egress': start
+[17:20:45.989] [bmv2] [D] [thread 7470] [3.0] [cxt 0] Pipeline 'egress': end
+[17:20:45.989] [bmv2] [D] [thread 7470] [3.0] [cxt 0] Deparser 'deparser': start
+[17:20:45.989] [bmv2] [T] [thread 7470] [3.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:45.989] [bmv2] [D] [thread 7470] [3.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:45.989] [bmv2] [D] [thread 7470] [3.0] [cxt 0] Deparser 'deparser': end
+[17:20:45.989] [bmv2] [D] [thread 7470] [4.0] [cxt 0] Pipeline 'egress': start
+[17:20:45.989] [bmv2] [D] [thread 7470] [4.0] [cxt 0] Pipeline 'egress': end
+[17:20:45.989] [bmv2] [D] [thread 7470] [4.0] [cxt 0] Deparser 'deparser': start
+[17:20:45.989] [bmv2] [T] [thread 7470] [4.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:45.989] [bmv2] [D] [thread 7470] [4.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:45.989] [bmv2] [D] [thread 7474] [3.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[17:20:45.989] [bmv2] [D] [thread 7470] [4.0] [cxt 0] Deparser 'deparser': end
+[17:20:45.990] [bmv2] [D] [thread 7474] [4.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:20:46.405] [bmv2] [D] [thread 7469] [5.0] [cxt 0] Processing packet received on port 2
+[17:20:46.405] [bmv2] [D] [thread 7469] [5.0] [cxt 0] Parser 'parser': start
+[17:20:46.405] [bmv2] [D] [thread 7469] [5.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:46.405] [bmv2] [D] [thread 7469] [5.0] [cxt 0] Extracting header 'ethernet'
+[17:20:46.405] [bmv2] [D] [thread 7469] [5.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:46.405] [bmv2] [T] [thread 7469] [5.0] [cxt 0] Bytes parsed: 14
+[17:20:46.405] [bmv2] [D] [thread 7469] [5.0] [cxt 0] Parser 'parser': end
+[17:20:46.405] [bmv2] [D] [thread 7469] [5.0] [cxt 0] Pipeline 'ingress': start
+[17:20:46.405] [bmv2] [T] [thread 7469] [5.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:46.405] [bmv2] [D] [thread 7469] [5.0] [cxt 0] Pipeline 'ingress': end
+[17:20:46.405] [bmv2] [D] [thread 7469] [5.0] [cxt 0] Egress port is 0
+[17:20:46.405] [bmv2] [D] [thread 7470] [5.0] [cxt 0] Pipeline 'egress': start
+[17:20:46.405] [bmv2] [D] [thread 7470] [5.0] [cxt 0] Pipeline 'egress': end
+[17:20:46.405] [bmv2] [D] [thread 7470] [5.0] [cxt 0] Deparser 'deparser': start
+[17:20:46.405] [bmv2] [T] [thread 7470] [5.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:46.405] [bmv2] [D] [thread 7470] [5.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:46.405] [bmv2] [D] [thread 7470] [5.0] [cxt 0] Deparser 'deparser': end
+[17:20:46.405] [bmv2] [D] [thread 7474] [5.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[17:20:46.915] [bmv2] [D] [thread 7469] [6.0] [cxt 0] Processing packet received on port 1
+[17:20:46.915] [bmv2] [D] [thread 7469] [6.0] [cxt 0] Parser 'parser': start
+[17:20:46.915] [bmv2] [D] [thread 7469] [6.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:46.915] [bmv2] [D] [thread 7469] [6.0] [cxt 0] Extracting header 'ethernet'
+[17:20:46.915] [bmv2] [D] [thread 7469] [6.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:46.915] [bmv2] [T] [thread 7469] [6.0] [cxt 0] Bytes parsed: 14
+[17:20:46.915] [bmv2] [D] [thread 7469] [6.0] [cxt 0] Parser 'parser': end
+[17:20:46.915] [bmv2] [D] [thread 7469] [6.0] [cxt 0] Pipeline 'ingress': start
+[17:20:46.915] [bmv2] [T] [thread 7469] [6.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:46.915] [bmv2] [D] [thread 7469] [6.0] [cxt 0] Pipeline 'ingress': end
+[17:20:46.915] [bmv2] [D] [thread 7469] [6.0] [cxt 0] Egress port is 0
+[17:20:46.915] [bmv2] [D] [thread 7470] [6.0] [cxt 0] Pipeline 'egress': start
+[17:20:46.915] [bmv2] [D] [thread 7470] [6.0] [cxt 0] Pipeline 'egress': end
+[17:20:46.915] [bmv2] [D] [thread 7470] [6.0] [cxt 0] Deparser 'deparser': start
+[17:20:46.915] [bmv2] [T] [thread 7470] [6.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:46.915] [bmv2] [D] [thread 7470] [6.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:46.915] [bmv2] [D] [thread 7470] [6.0] [cxt 0] Deparser 'deparser': end
+[17:20:46.915] [bmv2] [D] [thread 7474] [6.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[17:20:47.766] [bmv2] [W] [thread 7527] [P4Runtime] p4::tmp::P4DeviceConfig is deprecated
+[17:20:47.786] [bmv2] [D] [thread 7527] Set default default entry for table 'MyIngress.ipv4_lpm': NoAction - 
+[17:20:47.786] [bmv2] [D] [thread 7527] Set default default entry for table 'MyIngress.debug_pmu_header': NoAction - 
+[17:20:47.786] [bmv2] [D] [thread 7527] Set default default entry for table 'tbl_update_register': MyIngress.update_register - 
+[17:20:47.786] [bmv2] [D] [thread 7527] Set default default entry for table 'tbl_test': MyIngress.test - 
+[17:20:47.786] [bmv2] [D] [thread 7527] Set default default entry for table 'MyIngress.cos_value_va.cos_base_degree': NoAction - 
+[17:20:47.786] [bmv2] [D] [thread 7527] Entry 0 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:47.786] [bmv2] [D] [thread 7527] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.cos_value_va.set_cos_test - 
+
+[17:20:47.786] [bmv2] [D] [thread 7527] Entry 1 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:47.786] [bmv2] [D] [thread 7527] Dumping entry 1
+Match key:
+* degree              : EXACT     000000ae
+Action entry: MyIngress.cos_value_va.set_cos_result - ffffffa7,
+
+[17:20:47.786] [bmv2] [D] [thread 7527] Entry 2 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:47.786] [bmv2] [D] [thread 7527] Dumping entry 2
+Match key:
+* degree              : EXACT     00000001
+Action entry: MyIngress.cos_value_va.set_cos_result - 59,
+
+[17:20:47.786] [bmv2] [D] [thread 7527] Entry 3 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:47.786] [bmv2] [D] [thread 7527] Dumping entry 3
+Match key:
+* degree              : EXACT     000021d4
+Action entry: MyIngress.cos_value_va.set_cos_result - 96,
+
+[17:20:47.786] [bmv2] [D] [thread 7527] Entry 4 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:47.786] [bmv2] [D] [thread 7527] Dumping entry 4
+Match key:
+* degree              : EXACT     000021d5
+Action entry: MyIngress.cos_value_va.set_cos_result - 1e,
+
+[17:20:47.786] [bmv2] [D] [thread 7527] Entry 5 added to table 'MyIngress.cos_value_va.cos_base_degree'
+[17:20:47.786] [bmv2] [D] [thread 7527] Dumping entry 5
+Match key:
+* degree              : EXACT     0000222e
+Action entry: MyIngress.cos_value_va.set_cos_result - 20,
+
+[17:20:47.786] [bmv2] [D] [thread 7527] Set default default entry for table 'MyIngress.sin_value_va.sin_base_degree': NoAction - 
+[17:20:47.786] [bmv2] [D] [thread 7527] Entry 0 added to table 'MyIngress.sin_value_va.sin_base_degree'
+[17:20:47.786] [bmv2] [D] [thread 7527] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.sin_value_va.set_sin_result - 3c,
+
+[17:20:47.786] [bmv2] [D] [thread 7527] Entry 1 added to table 'MyIngress.sin_value_va.sin_base_degree'
+[17:20:47.786] [bmv2] [D] [thread 7527] Dumping entry 1
+Match key:
+* degree              : EXACT     0000270e
+Action entry: MyIngress.sin_value_va.set_sin_result - ffffffa7,
+
+[17:20:47.786] [bmv2] [D] [thread 7527] Entry 2 added to table 'MyIngress.sin_value_va.sin_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 2
+Match key:
+* degree              : EXACT     00001389
+Action entry: MyIngress.sin_value_va.set_sin_result - 96,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 3 added to table 'MyIngress.sin_value_va.sin_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 3
+Match key:
+* degree              : EXACT     00001388
+Action entry: MyIngress.sin_value_va.set_sin_result - 1e,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Set default default entry for table 'tbl_basic486': basic486 - 
+[17:20:47.787] [bmv2] [D] [thread 7527] Set default default entry for table 'MyIngress.cos_value_vb.cos_base_degree': NoAction - 
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 0 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.cos_value_vb.set_cos_test - 
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 1 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 1
+Match key:
+* degree              : EXACT     000000ae
+Action entry: MyIngress.cos_value_vb.set_cos_result - ffffffa7,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 2 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 2
+Match key:
+* degree              : EXACT     00000001
+Action entry: MyIngress.cos_value_vb.set_cos_result - 59,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 3 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 3
+Match key:
+* degree              : EXACT     000021d4
+Action entry: MyIngress.cos_value_vb.set_cos_result - 96,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 4 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 4
+Match key:
+* degree              : EXACT     000021d5
+Action entry: MyIngress.cos_value_vb.set_cos_result - 1e,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 5 added to table 'MyIngress.cos_value_vb.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 5
+Match key:
+* degree              : EXACT     0000222e
+Action entry: MyIngress.cos_value_vb.set_cos_result - 20,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Set default default entry for table 'MyIngress.sin_value_vb.sin_base_degree': NoAction - 
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 0 added to table 'MyIngress.sin_value_vb.sin_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.sin_value_vb.set_sin_result - 3c,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 1 added to table 'MyIngress.sin_value_vb.sin_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 1
+Match key:
+* degree              : EXACT     0000270e
+Action entry: MyIngress.sin_value_vb.set_sin_result - ffffffa7,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 2 added to table 'MyIngress.sin_value_vb.sin_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 2
+Match key:
+* degree              : EXACT     00001389
+Action entry: MyIngress.sin_value_vb.set_sin_result - 96,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 3 added to table 'MyIngress.sin_value_vb.sin_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 3
+Match key:
+* degree              : EXACT     00001388
+Action entry: MyIngress.sin_value_vb.set_sin_result - 1e,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Set default default entry for table 'MyIngress.cos_value_vc.cos_base_degree': NoAction - 
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 0 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.cos_value_vc.set_cos_test - 
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 1 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 1
+Match key:
+* degree              : EXACT     000000ae
+Action entry: MyIngress.cos_value_vc.set_cos_result - ffffffa7,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 2 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 2
+Match key:
+* degree              : EXACT     00000001
+Action entry: MyIngress.cos_value_vc.set_cos_result - 59,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 3 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 3
+Match key:
+* degree              : EXACT     000021d4
+Action entry: MyIngress.cos_value_vc.set_cos_result - 96,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 4 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 4
+Match key:
+* degree              : EXACT     000021d5
+Action entry: MyIngress.cos_value_vc.set_cos_result - 1e,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 5 added to table 'MyIngress.cos_value_vc.cos_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 5
+Match key:
+* degree              : EXACT     0000222e
+Action entry: MyIngress.cos_value_vc.set_cos_result - 20,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Set default default entry for table 'MyIngress.sin_value_vc.sin_base_degree': NoAction - 
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 0 added to table 'MyIngress.sin_value_vc.sin_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 0
+Match key:
+* degree              : EXACT     00000059
+Action entry: MyIngress.sin_value_vc.set_sin_result - 3c,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 1 added to table 'MyIngress.sin_value_vc.sin_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 1
+Match key:
+* degree              : EXACT     0000270e
+Action entry: MyIngress.sin_value_vc.set_sin_result - ffffffa7,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 2 added to table 'MyIngress.sin_value_vc.sin_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 2
+Match key:
+* degree              : EXACT     00001389
+Action entry: MyIngress.sin_value_vc.set_sin_result - 96,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Entry 3 added to table 'MyIngress.sin_value_vc.sin_base_degree'
+[17:20:47.787] [bmv2] [D] [thread 7527] Dumping entry 3
+Match key:
+* degree              : EXACT     00001388
+Action entry: MyIngress.sin_value_vc.set_sin_result - 1e,
+
+[17:20:47.787] [bmv2] [D] [thread 7527] Set default default entry for table 'tbl_calculate_complex_voltage': MyIngress.calculate_complex_voltage - 
+[17:20:47.787] [bmv2] [D] [thread 7527] Set default default entry for table 'tbl_basic497': basic497 - 
+[17:20:47.787] [bmv2] [D] [thread 7527] Set default default entry for table 'tbl_calculate_complex_voltage_0': MyIngress.calculate_complex_voltage - 
+[17:20:47.787] [bmv2] [D] [thread 7527] Set default default entry for table 'tbl_calculate_complex_voltage_1': MyIngress.calculate_complex_voltage - 
+[17:20:47.787] [bmv2] [D] [thread 7527] Set default default entry for table 'tbl_jpt_algo': MyIngress.jpt_algo - 
+[17:20:47.787] [bmv2] [D] [thread 7527] Set default default entry for table 'tbl_jpt_algo_0': MyIngress.jpt_algo - 
+[17:20:47.791] [bmv2] [D] [thread 7527] simple_switch target has been notified of a config swap
+[17:20:47.792] [bmv2] [D] [thread 7528] Set default entry for table 'MyIngress.ipv4_lpm': MyIngress.drop - 
+[17:20:47.794] [bmv2] [D] [thread 7534] Entry 0 added to table 'MyIngress.ipv4_lpm'
+[17:20:47.794] [bmv2] [D] [thread 7534] Dumping entry 0
+Match key:
+* hdr.ipv4.dstAddr    : LPM       0a000101/32
+Action entry: MyIngress.ipv4_forward - 80000000100,1,
+
+[17:20:47.795] [bmv2] [D] [thread 7528] Entry 1 added to table 'MyIngress.ipv4_lpm'
+[17:20:47.795] [bmv2] [D] [thread 7528] Dumping entry 1
+Match key:
+* hdr.ipv4.dstAddr    : LPM       0a000202/32
+Action entry: MyIngress.ipv4_forward - 80000000100,1,
+
+[17:20:47.796] [bmv2] [D] [thread 7528] Entry 2 added to table 'MyIngress.ipv4_lpm'
+[17:20:47.796] [bmv2] [D] [thread 7528] Dumping entry 2
+Match key:
+* hdr.ipv4.dstAddr    : LPM       0a000303/32
+Action entry: MyIngress.ipv4_forward - 80000000200,2,
+
+[17:20:47.797] [bmv2] [D] [thread 7535] Entry 3 added to table 'MyIngress.ipv4_lpm'
+[17:20:47.797] [bmv2] [D] [thread 7535] Dumping entry 3
+Match key:
+* hdr.ipv4.dstAddr    : LPM       0a000404/32
+Action entry: MyIngress.ipv4_forward - 80000000200,2,
+
+[17:20:48.900] [bmv2] [D] [thread 7469] [7.0] [cxt 0] Processing packet received on port 1
+[17:20:48.900] [bmv2] [D] [thread 7469] [7.0] [cxt 0] Parser 'parser': start
+[17:20:48.900] [bmv2] [D] [thread 7469] [7.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:48.900] [bmv2] [D] [thread 7469] [7.0] [cxt 0] Extracting header 'ethernet'
+[17:20:48.900] [bmv2] [D] [thread 7469] [7.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:48.900] [bmv2] [T] [thread 7469] [7.0] [cxt 0] Bytes parsed: 14
+[17:20:48.900] [bmv2] [D] [thread 7469] [7.0] [cxt 0] Parser 'parser': end
+[17:20:48.900] [bmv2] [D] [thread 7469] [7.0] [cxt 0] Pipeline 'ingress': start
+[17:20:48.900] [bmv2] [T] [thread 7469] [7.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:48.900] [bmv2] [D] [thread 7469] [7.0] [cxt 0] Pipeline 'ingress': end
+[17:20:48.900] [bmv2] [D] [thread 7469] [7.0] [cxt 0] Egress port is 0
+[17:20:48.900] [bmv2] [D] [thread 7470] [7.0] [cxt 0] Pipeline 'egress': start
+[17:20:48.900] [bmv2] [D] [thread 7470] [7.0] [cxt 0] Pipeline 'egress': end
+[17:20:48.900] [bmv2] [D] [thread 7470] [7.0] [cxt 0] Deparser 'deparser': start
+[17:20:48.900] [bmv2] [T] [thread 7470] [7.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:48.900] [bmv2] [D] [thread 7470] [7.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:48.900] [bmv2] [D] [thread 7470] [7.0] [cxt 0] Deparser 'deparser': end
+[17:20:48.900] [bmv2] [D] [thread 7474] [7.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:20:49.413] [bmv2] [D] [thread 7469] [8.0] [cxt 0] Processing packet received on port 2
+[17:20:49.413] [bmv2] [D] [thread 7469] [8.0] [cxt 0] Parser 'parser': start
+[17:20:49.413] [bmv2] [D] [thread 7469] [8.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:49.413] [bmv2] [D] [thread 7469] [8.0] [cxt 0] Extracting header 'ethernet'
+[17:20:49.413] [bmv2] [D] [thread 7469] [8.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:49.413] [bmv2] [T] [thread 7469] [8.0] [cxt 0] Bytes parsed: 14
+[17:20:49.413] [bmv2] [D] [thread 7469] [8.0] [cxt 0] Parser 'parser': end
+[17:20:49.413] [bmv2] [D] [thread 7469] [8.0] [cxt 0] Pipeline 'ingress': start
+[17:20:49.413] [bmv2] [T] [thread 7469] [8.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:49.413] [bmv2] [D] [thread 7469] [8.0] [cxt 0] Pipeline 'ingress': end
+[17:20:49.413] [bmv2] [D] [thread 7469] [8.0] [cxt 0] Egress port is 0
+[17:20:49.413] [bmv2] [D] [thread 7470] [8.0] [cxt 0] Pipeline 'egress': start
+[17:20:49.413] [bmv2] [D] [thread 7470] [8.0] [cxt 0] Pipeline 'egress': end
+[17:20:49.413] [bmv2] [D] [thread 7470] [8.0] [cxt 0] Deparser 'deparser': start
+[17:20:49.413] [bmv2] [T] [thread 7470] [8.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:49.413] [bmv2] [D] [thread 7470] [8.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:49.413] [bmv2] [D] [thread 7470] [8.0] [cxt 0] Deparser 'deparser': end
+[17:20:49.413] [bmv2] [D] [thread 7474] [8.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:20:49.923] [bmv2] [D] [thread 7469] [9.0] [cxt 0] Processing packet received on port 2
+[17:20:49.923] [bmv2] [D] [thread 7469] [9.0] [cxt 0] Parser 'parser': start
+[17:20:49.923] [bmv2] [D] [thread 7469] [9.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:49.923] [bmv2] [D] [thread 7469] [9.0] [cxt 0] Extracting header 'ethernet'
+[17:20:49.923] [bmv2] [D] [thread 7469] [9.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:49.923] [bmv2] [T] [thread 7469] [9.0] [cxt 0] Bytes parsed: 14
+[17:20:49.923] [bmv2] [D] [thread 7469] [9.0] [cxt 0] Parser 'parser': end
+[17:20:49.923] [bmv2] [D] [thread 7469] [9.0] [cxt 0] Pipeline 'ingress': start
+[17:20:49.923] [bmv2] [T] [thread 7469] [9.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:49.923] [bmv2] [D] [thread 7469] [9.0] [cxt 0] Pipeline 'ingress': end
+[17:20:49.923] [bmv2] [D] [thread 7469] [9.0] [cxt 0] Egress port is 0
+[17:20:49.924] [bmv2] [D] [thread 7470] [9.0] [cxt 0] Pipeline 'egress': start
+[17:20:49.924] [bmv2] [D] [thread 7470] [9.0] [cxt 0] Pipeline 'egress': end
+[17:20:49.924] [bmv2] [D] [thread 7470] [9.0] [cxt 0] Deparser 'deparser': start
+[17:20:49.924] [bmv2] [T] [thread 7470] [9.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:49.924] [bmv2] [D] [thread 7470] [9.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:49.924] [bmv2] [D] [thread 7470] [9.0] [cxt 0] Deparser 'deparser': end
+[17:20:49.924] [bmv2] [D] [thread 7474] [9.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:20:50.180] [bmv2] [D] [thread 7469] [10.0] [cxt 0] Processing packet received on port 1
+[17:20:50.180] [bmv2] [D] [thread 7469] [10.0] [cxt 0] Parser 'parser': start
+[17:20:50.180] [bmv2] [D] [thread 7469] [10.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:50.180] [bmv2] [D] [thread 7469] [10.0] [cxt 0] Extracting header 'ethernet'
+[17:20:50.180] [bmv2] [D] [thread 7469] [10.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:50.180] [bmv2] [T] [thread 7469] [10.0] [cxt 0] Bytes parsed: 14
+[17:20:50.180] [bmv2] [D] [thread 7469] [10.0] [cxt 0] Parser 'parser': end
+[17:20:50.180] [bmv2] [D] [thread 7469] [10.0] [cxt 0] Pipeline 'ingress': start
+[17:20:50.180] [bmv2] [T] [thread 7469] [10.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:50.180] [bmv2] [D] [thread 7469] [10.0] [cxt 0] Pipeline 'ingress': end
+[17:20:50.180] [bmv2] [D] [thread 7469] [10.0] [cxt 0] Egress port is 0
+[17:20:50.180] [bmv2] [D] [thread 7470] [10.0] [cxt 0] Pipeline 'egress': start
+[17:20:50.180] [bmv2] [D] [thread 7470] [10.0] [cxt 0] Pipeline 'egress': end
+[17:20:50.180] [bmv2] [D] [thread 7470] [10.0] [cxt 0] Deparser 'deparser': start
+[17:20:50.180] [bmv2] [T] [thread 7470] [10.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:50.180] [bmv2] [D] [thread 7470] [10.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:50.180] [bmv2] [D] [thread 7470] [10.0] [cxt 0] Deparser 'deparser': end
+[17:20:50.181] [bmv2] [D] [thread 7474] [10.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:20:56.580] [bmv2] [D] [thread 7469] [11.0] [cxt 0] Processing packet received on port 1
+[17:20:56.580] [bmv2] [D] [thread 7469] [11.0] [cxt 0] Parser 'parser': start
+[17:20:56.580] [bmv2] [D] [thread 7469] [11.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:56.580] [bmv2] [D] [thread 7469] [11.0] [cxt 0] Extracting header 'ethernet'
+[17:20:56.580] [bmv2] [D] [thread 7469] [11.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:56.580] [bmv2] [T] [thread 7469] [11.0] [cxt 0] Bytes parsed: 14
+[17:20:56.580] [bmv2] [D] [thread 7469] [11.0] [cxt 0] Parser 'parser': end
+[17:20:56.580] [bmv2] [D] [thread 7469] [11.0] [cxt 0] Pipeline 'ingress': start
+[17:20:56.580] [bmv2] [T] [thread 7469] [11.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:56.580] [bmv2] [D] [thread 7469] [11.0] [cxt 0] Pipeline 'ingress': end
+[17:20:56.580] [bmv2] [D] [thread 7469] [11.0] [cxt 0] Egress port is 0
+[17:20:56.580] [bmv2] [D] [thread 7470] [11.0] [cxt 0] Pipeline 'egress': start
+[17:20:56.580] [bmv2] [D] [thread 7470] [11.0] [cxt 0] Pipeline 'egress': end
+[17:20:56.580] [bmv2] [D] [thread 7470] [11.0] [cxt 0] Deparser 'deparser': start
+[17:20:56.580] [bmv2] [T] [thread 7470] [11.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:56.580] [bmv2] [D] [thread 7470] [11.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:56.580] [bmv2] [D] [thread 7470] [11.0] [cxt 0] Deparser 'deparser': end
+[17:20:56.580] [bmv2] [D] [thread 7474] [11.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:20:56.837] [bmv2] [D] [thread 7469] [12.0] [cxt 0] Processing packet received on port 2
+[17:20:56.837] [bmv2] [D] [thread 7469] [12.0] [cxt 0] Parser 'parser': start
+[17:20:56.837] [bmv2] [D] [thread 7469] [12.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:56.837] [bmv2] [D] [thread 7469] [12.0] [cxt 0] Extracting header 'ethernet'
+[17:20:56.837] [bmv2] [D] [thread 7469] [12.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:56.837] [bmv2] [T] [thread 7469] [12.0] [cxt 0] Bytes parsed: 14
+[17:20:56.837] [bmv2] [D] [thread 7469] [12.0] [cxt 0] Parser 'parser': end
+[17:20:56.837] [bmv2] [D] [thread 7469] [12.0] [cxt 0] Pipeline 'ingress': start
+[17:20:56.837] [bmv2] [T] [thread 7469] [12.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:56.837] [bmv2] [D] [thread 7469] [12.0] [cxt 0] Pipeline 'ingress': end
+[17:20:56.837] [bmv2] [D] [thread 7469] [12.0] [cxt 0] Egress port is 0
+[17:20:56.837] [bmv2] [D] [thread 7470] [12.0] [cxt 0] Pipeline 'egress': start
+[17:20:56.837] [bmv2] [D] [thread 7470] [12.0] [cxt 0] Pipeline 'egress': end
+[17:20:56.837] [bmv2] [D] [thread 7470] [12.0] [cxt 0] Deparser 'deparser': start
+[17:20:56.837] [bmv2] [T] [thread 7470] [12.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:56.837] [bmv2] [D] [thread 7470] [12.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:56.837] [bmv2] [D] [thread 7470] [12.0] [cxt 0] Deparser 'deparser': end
+[17:20:56.837] [bmv2] [D] [thread 7474] [12.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:20:58.116] [bmv2] [D] [thread 7469] [13.0] [cxt 0] Processing packet received on port 1
+[17:20:58.117] [bmv2] [D] [thread 7469] [13.0] [cxt 0] Parser 'parser': start
+[17:20:58.117] [bmv2] [D] [thread 7469] [13.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:58.117] [bmv2] [D] [thread 7469] [13.0] [cxt 0] Extracting header 'ethernet'
+[17:20:58.117] [bmv2] [D] [thread 7469] [13.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:58.117] [bmv2] [T] [thread 7469] [13.0] [cxt 0] Bytes parsed: 14
+[17:20:58.117] [bmv2] [D] [thread 7469] [13.0] [cxt 0] Parser 'parser': end
+[17:20:58.117] [bmv2] [D] [thread 7469] [13.0] [cxt 0] Pipeline 'ingress': start
+[17:20:58.117] [bmv2] [T] [thread 7469] [13.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:58.117] [bmv2] [D] [thread 7469] [13.0] [cxt 0] Pipeline 'ingress': end
+[17:20:58.117] [bmv2] [D] [thread 7469] [13.0] [cxt 0] Egress port is 0
+[17:20:58.117] [bmv2] [D] [thread 7470] [13.0] [cxt 0] Pipeline 'egress': start
+[17:20:58.117] [bmv2] [D] [thread 7470] [13.0] [cxt 0] Pipeline 'egress': end
+[17:20:58.117] [bmv2] [D] [thread 7470] [13.0] [cxt 0] Deparser 'deparser': start
+[17:20:58.117] [bmv2] [T] [thread 7470] [13.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:58.117] [bmv2] [D] [thread 7470] [13.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:58.117] [bmv2] [D] [thread 7470] [13.0] [cxt 0] Deparser 'deparser': end
+[17:20:58.117] [bmv2] [D] [thread 7474] [13.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:20:58.371] [bmv2] [D] [thread 7469] [14.0] [cxt 0] Processing packet received on port 2
+[17:20:58.371] [bmv2] [D] [thread 7469] [14.0] [cxt 0] Parser 'parser': start
+[17:20:58.371] [bmv2] [D] [thread 7469] [14.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:20:58.371] [bmv2] [D] [thread 7469] [14.0] [cxt 0] Extracting header 'ethernet'
+[17:20:58.371] [bmv2] [D] [thread 7469] [14.0] [cxt 0] Parser state 'start': key is 86dd
+[17:20:58.371] [bmv2] [T] [thread 7469] [14.0] [cxt 0] Bytes parsed: 14
+[17:20:58.371] [bmv2] [D] [thread 7469] [14.0] [cxt 0] Parser 'parser': end
+[17:20:58.371] [bmv2] [D] [thread 7469] [14.0] [cxt 0] Pipeline 'ingress': start
+[17:20:58.371] [bmv2] [T] [thread 7469] [14.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:20:58.371] [bmv2] [D] [thread 7469] [14.0] [cxt 0] Pipeline 'ingress': end
+[17:20:58.372] [bmv2] [D] [thread 7469] [14.0] [cxt 0] Egress port is 0
+[17:20:58.372] [bmv2] [D] [thread 7470] [14.0] [cxt 0] Pipeline 'egress': start
+[17:20:58.372] [bmv2] [D] [thread 7470] [14.0] [cxt 0] Pipeline 'egress': end
+[17:20:58.372] [bmv2] [D] [thread 7470] [14.0] [cxt 0] Deparser 'deparser': start
+[17:20:58.372] [bmv2] [T] [thread 7470] [14.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:20:58.372] [bmv2] [D] [thread 7470] [14.0] [cxt 0] Deparsing header 'ethernet'
+[17:20:58.372] [bmv2] [D] [thread 7470] [14.0] [cxt 0] Deparser 'deparser': end
+[17:20:58.372] [bmv2] [D] [thread 7474] [14.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:21:11.428] [bmv2] [D] [thread 7469] [15.0] [cxt 0] Processing packet received on port 1
+[17:21:11.428] [bmv2] [D] [thread 7469] [15.0] [cxt 0] Parser 'parser': start
+[17:21:11.428] [bmv2] [D] [thread 7469] [15.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:21:11.428] [bmv2] [D] [thread 7469] [15.0] [cxt 0] Extracting header 'ethernet'
+[17:21:11.428] [bmv2] [D] [thread 7469] [15.0] [cxt 0] Parser state 'start': key is 86dd
+[17:21:11.428] [bmv2] [T] [thread 7469] [15.0] [cxt 0] Bytes parsed: 14
+[17:21:11.428] [bmv2] [D] [thread 7469] [15.0] [cxt 0] Parser 'parser': end
+[17:21:11.428] [bmv2] [D] [thread 7469] [15.0] [cxt 0] Pipeline 'ingress': start
+[17:21:11.428] [bmv2] [T] [thread 7469] [15.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:21:11.428] [bmv2] [D] [thread 7469] [15.0] [cxt 0] Pipeline 'ingress': end
+[17:21:11.428] [bmv2] [D] [thread 7469] [15.0] [cxt 0] Egress port is 0
+[17:21:11.428] [bmv2] [D] [thread 7470] [15.0] [cxt 0] Pipeline 'egress': start
+[17:21:11.428] [bmv2] [D] [thread 7470] [15.0] [cxt 0] Pipeline 'egress': end
+[17:21:11.428] [bmv2] [D] [thread 7470] [15.0] [cxt 0] Deparser 'deparser': start
+[17:21:11.428] [bmv2] [T] [thread 7470] [15.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:21:11.428] [bmv2] [D] [thread 7470] [15.0] [cxt 0] Deparsing header 'ethernet'
+[17:21:11.428] [bmv2] [D] [thread 7470] [15.0] [cxt 0] Deparser 'deparser': end
+[17:21:11.428] [bmv2] [D] [thread 7474] [15.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:21:11.943] [bmv2] [D] [thread 7469] [16.0] [cxt 0] Processing packet received on port 2
+[17:21:11.943] [bmv2] [D] [thread 7469] [16.0] [cxt 0] Parser 'parser': start
+[17:21:11.943] [bmv2] [D] [thread 7469] [16.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:21:11.943] [bmv2] [D] [thread 7469] [16.0] [cxt 0] Extracting header 'ethernet'
+[17:21:11.943] [bmv2] [D] [thread 7469] [16.0] [cxt 0] Parser state 'start': key is 86dd
+[17:21:11.943] [bmv2] [T] [thread 7469] [16.0] [cxt 0] Bytes parsed: 14
+[17:21:11.943] [bmv2] [D] [thread 7469] [16.0] [cxt 0] Parser 'parser': end
+[17:21:11.943] [bmv2] [D] [thread 7469] [16.0] [cxt 0] Pipeline 'ingress': start
+[17:21:11.943] [bmv2] [T] [thread 7469] [16.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:21:11.943] [bmv2] [D] [thread 7469] [16.0] [cxt 0] Pipeline 'ingress': end
+[17:21:11.943] [bmv2] [D] [thread 7469] [16.0] [cxt 0] Egress port is 0
+[17:21:11.943] [bmv2] [D] [thread 7470] [16.0] [cxt 0] Pipeline 'egress': start
+[17:21:11.943] [bmv2] [D] [thread 7470] [16.0] [cxt 0] Pipeline 'egress': end
+[17:21:11.943] [bmv2] [D] [thread 7470] [16.0] [cxt 0] Deparser 'deparser': start
+[17:21:11.943] [bmv2] [T] [thread 7470] [16.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:21:11.943] [bmv2] [D] [thread 7470] [16.0] [cxt 0] Deparsing header 'ethernet'
+[17:21:11.943] [bmv2] [D] [thread 7470] [16.0] [cxt 0] Deparser 'deparser': end
+[17:21:11.943] [bmv2] [D] [thread 7474] [16.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:21:13.226] [bmv2] [D] [thread 7469] [17.0] [cxt 0] Processing packet received on port 1
+[17:21:13.226] [bmv2] [D] [thread 7469] [17.0] [cxt 0] Parser 'parser': start
+[17:21:13.226] [bmv2] [D] [thread 7469] [17.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:21:13.226] [bmv2] [D] [thread 7469] [17.0] [cxt 0] Extracting header 'ethernet'
+[17:21:13.226] [bmv2] [D] [thread 7469] [17.0] [cxt 0] Parser state 'start': key is 86dd
+[17:21:13.226] [bmv2] [T] [thread 7469] [17.0] [cxt 0] Bytes parsed: 14
+[17:21:13.226] [bmv2] [D] [thread 7469] [17.0] [cxt 0] Parser 'parser': end
+[17:21:13.226] [bmv2] [D] [thread 7469] [17.0] [cxt 0] Pipeline 'ingress': start
+[17:21:13.226] [bmv2] [T] [thread 7469] [17.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:21:13.226] [bmv2] [D] [thread 7469] [17.0] [cxt 0] Pipeline 'ingress': end
+[17:21:13.226] [bmv2] [D] [thread 7469] [17.0] [cxt 0] Egress port is 0
+[17:21:13.226] [bmv2] [D] [thread 7470] [17.0] [cxt 0] Pipeline 'egress': start
+[17:21:13.226] [bmv2] [D] [thread 7470] [17.0] [cxt 0] Pipeline 'egress': end
+[17:21:13.226] [bmv2] [D] [thread 7470] [17.0] [cxt 0] Deparser 'deparser': start
+[17:21:13.226] [bmv2] [T] [thread 7470] [17.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:21:13.226] [bmv2] [D] [thread 7470] [17.0] [cxt 0] Deparsing header 'ethernet'
+[17:21:13.226] [bmv2] [D] [thread 7470] [17.0] [cxt 0] Deparser 'deparser': end
+[17:21:13.226] [bmv2] [D] [thread 7474] [17.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[17:21:14.500] [bmv2] [D] [thread 7469] [18.0] [cxt 0] Processing packet received on port 2
+[17:21:14.500] [bmv2] [D] [thread 7469] [18.0] [cxt 0] Parser 'parser': start
+[17:21:14.500] [bmv2] [D] [thread 7469] [18.0] [cxt 0] Parser 'parser' entering state 'start'
+[17:21:14.500] [bmv2] [D] [thread 7469] [18.0] [cxt 0] Extracting header 'ethernet'
+[17:21:14.500] [bmv2] [D] [thread 7469] [18.0] [cxt 0] Parser state 'start': key is 86dd
+[17:21:14.500] [bmv2] [T] [thread 7469] [18.0] [cxt 0] Bytes parsed: 14
+[17:21:14.500] [bmv2] [D] [thread 7469] [18.0] [cxt 0] Parser 'parser': end
+[17:21:14.500] [bmv2] [D] [thread 7469] [18.0] [cxt 0] Pipeline 'ingress': start
+[17:21:14.500] [bmv2] [T] [thread 7469] [18.0] [cxt 0] basic.p4(476) Condition "hdr.ipv4.isValid()" (node_2) is false
+[17:21:14.500] [bmv2] [D] [thread 7469] [18.0] [cxt 0] Pipeline 'ingress': end
+[17:21:14.500] [bmv2] [D] [thread 7469] [18.0] [cxt 0] Egress port is 0
+[17:21:14.500] [bmv2] [D] [thread 7470] [18.0] [cxt 0] Pipeline 'egress': start
+[17:21:14.500] [bmv2] [D] [thread 7470] [18.0] [cxt 0] Pipeline 'egress': end
+[17:21:14.500] [bmv2] [D] [thread 7470] [18.0] [cxt 0] Deparser 'deparser': start
+[17:21:14.500] [bmv2] [T] [thread 7470] [18.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[17:21:14.500] [bmv2] [D] [thread 7470] [18.0] [cxt 0] Deparsing header 'ethernet'
+[17:21:14.500] [bmv2] [D] [thread 7470] [18.0] [cxt 0] Deparser 'deparser': end
+[17:21:14.500] [bmv2] [D] [thread 7474] [18.0] [cxt 0] Transmitting packet of size 70 out of port 0
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
