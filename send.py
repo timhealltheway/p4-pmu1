@@ -36,12 +36,12 @@ class PMU(Packet):
                     BitField('Id_code', 60,16),
                     UTCTimeField("timestamp",1217548801),
                     XBitField('Flags',1,16),
-                    XBitField('PhasorVA_Vol',100,32),
-                    XBitField('PhasorVA_Ang',89,32),
-                    XBitField('PhasorVB_Vol',99,32),
-                    XBitField('PhasorVB_Ang',150,32),
-                    XBitField('PhasorVC_Vol',100,32),
-                    XBitField('PhasorVC_Ang',30,32)
+                    XBitField('PhasorVA_Vol',95,32),
+                    XBitField('PhasorVA_Ang',1,32),
+                    XBitField('PhasorVB_Vol',96,32),
+                    XBitField('PhasorVB_Ang',1,32),
+                    XBitField('PhasorVC_Vol',97,32),
+                    XBitField('PhasorVC_Ang',1,32)
                     ]
 
 bind_layers(UDP,PMU,dport=1234)
